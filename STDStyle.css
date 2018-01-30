@@ -24,3 +24,7 @@ h1 {
 div p{
     color: seagreen;
 }
+
+div p a{
+    color: seagreen;
+}
