@@ -2,8 +2,17 @@ html {
     background-color: steelblue;
 }
 
+.half {
+    display: block;
+    width: 60vw;
+}
+
 .container{
     display: inline-block;
+    float: left;
+    padding: 1px;
+    margin: 10px;
+    border: black;
     background-color: linen;
     width: 250px;
     height: 250px;
