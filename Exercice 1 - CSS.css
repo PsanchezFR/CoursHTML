@@ -1,0 +1,22 @@
+html {
+    background-color: steelblue;
+}
+
+.container{
+    display: inline-block;
+    background-color: linen;
+    width: 250px;
+    height: 250px;
+}
+
+.inline {
+    display: inline;
+    background-color: lightgreen;
+    border: black;
+}
+
+.block {
+    display: block;
+    background-color: lightblue;
+    border: blue;
+}
