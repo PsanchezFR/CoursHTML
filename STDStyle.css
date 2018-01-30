@@ -1,12 +1,26 @@
 /*Default style : when something isn't styled with its own file, it's in there.*/
-* {
 
+/*GENERAL SELECTORS*/
+* {
+    font-family: "Ubuntu Light";
 }
 
 body {
-
+    background-color: lightgoldenrodyellow;
 }
 
 footer {
 
+}
+
+h1 {
+    font-size: 4em;
+    color: darkolivegreen;
+    font-weight: bold;
+}
+
+/*SPECIFIC SELECTORS*/
+
+div p{
+    color: seagreen;
 }
