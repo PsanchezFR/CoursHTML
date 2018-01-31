@@ -31,10 +31,10 @@ table tr:hover{
 }
 
 /*Button*/
-label input:focus {
+#submit input:focus {
     background-color: yellow;
 }
 
-label input:active {
+#submit input:active {
     background-color: blue;
 }
