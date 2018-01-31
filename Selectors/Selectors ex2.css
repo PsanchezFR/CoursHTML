@@ -1,0 +1,55 @@
+/**
+ les règles css sont à ajouter en haut de la feuille
+**/
+
+/* reponses li1 */
+#li1 { /* 0100 */
+    color: orange;
+}
+/* reponses li2 */
+ul li#li2 { /* priority: 0102 */
+    color: green;
+}
+
+/* reponses li3 */
+ul li.notice#li3 { /* priority: 0112 */
+    color: blue;
+}
+li.notice#li3 { /* priority: 0111 */
+    color: blue;
+}
+.notice#li3 { /* priority: 0110 */
+    color: blue;
+}
+
+/* reponses li4 */
+/* ===> IMPOSSIBLE */
+
+/* reponses li5 */
+body ul li#li5 { /* priority 0103 */
+    color: pink;
+}
+#li4 + #li5 { /* priority 0200 */
+    color: pink;
+}
+li#li4 + li#li5 { /* priority 0202 */
+    color: pink;
+}
+li.notice#li3 ~ li#li5 { /* priority 0212 */
+    color: pink;
+}
+
+
+/** ne plus rien modifier en dessous **/
+li { /** priority : 0001 **/
+    color: red;
+}
+ul li#li5 {
+    color: orange;
+}
+li#li2 { /** priority : 0101 **/
+    color: blue;
+}
+ul li#li3 {
+    color: green;
+}
