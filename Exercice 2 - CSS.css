@@ -19,7 +19,7 @@ body{
     display: inline-block;
     float: left;
     margin: 10px;
-    border: black;
+    border: 1px solid black;
     background-color: linen;
     width: 250px;
     height: 250px;
@@ -27,31 +27,39 @@ body{
 
 .fleft{
     display: inline-block;
-    height: 50px;
+    float: left;
+    height: 40px;
     background-color: lightgreen;
-    /*border: 1px solid green;*/
+    box-shadow: 0 0 0 1px green inset;
 }
 
 .fright {
     display: inline-block;
-    height: 50px;
+    float: right;
+    height: 40px;
     background-color: lightblue;
-    /*border: 1px solid blue;*/
+    box-shadow: 0 0 0 1px blue inset;
 }
 
-/*Ids for the space used by each box -*/
+.clrBox {
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: purple;
+    clear: both;
+}
+
+/*Classes for the space used by each box -*/
 /**/
-/*Had to substract 1% to 3% to each so the boxes were on the same line*/
-/*It has to be more depending on the number of elements*/
 
-#half {
-    width: 49%;
+.half {
+    width: 50%;
 }
 
-#third {
-    width: 31%;
+.third {
+    width: calc(100%/3);
 }
 
-#quarter {
-    width: 22%;
+.quarter {
+    width: 25%;
 }
