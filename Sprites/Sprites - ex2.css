@@ -1,0 +1,94 @@
+/*
+	Selecteur CSS
+	selector  : balise.id.class[attr="valeur"]:pseudo
+	operator  : espace  +  >  ~
+	separator : ,
+
+	http://front.rocks/tp/03-html-css-advanced/tp5/img/goal.png
+*/
+
+/*GENERAL RULES*/
+.row{
+    clear: both;
+}
+
+.logo{
+    display: block;
+    margin: 5px;
+    float: left;
+    height: 84px;
+    width: 84px;
+    border: 1px solid silver;
+}
+
+/*ROW TRANSPARENT*/
+.transparent .facebook {
+    background: url("http://front.rocks/tp/03-html-css-advanced/tp5/img/sprite.png");
+}
+
+.transparent .google {
+    background: url("http://front.rocks/tp/03-html-css-advanced/tp5/img/sprite.png") calc(-84*3px) 0;
+}
+
+.transparent .linkedin{
+    background: url("http://front.rocks/tp/03-html-css-advanced/tp5/img/sprite.png") calc(-84*4px) 0;
+}
+
+.transparent .twitter{
+    background: url("http://front.rocks/tp/03-html-css-advanced/tp5/img/sprite.png") calc(-84*8px) 0;
+}
+
+/*ROW COLORED*/
+.colored .facebook {
+    background: url("http://front.rocks/tp/03-html-css-advanced/tp5/img/sprite.png")0 -84px;
+}
+
+.colored .google {
+    background: url("http://front.rocks/tp/03-html-css-advanced/tp5/img/sprite.png") calc(-84*3px) -84px;
+}
+
+.colored .linkedin{
+    background: url("http://front.rocks/tp/03-html-css-advanced/tp5/img/sprite.png") calc(-84*4px) -84px;
+}
+
+.colored .twitter{
+    background: url("http://front.rocks/tp/03-html-css-advanced/tp5/img/sprite.png") calc(-84*8px) -84px;
+}
+
+/*ROW GRAYSCALE*/
+.grayscale .facebook {
+    background: url("http://front.rocks/tp/03-html-css-advanced/tp5/img/sprite.png")0 calc(-84*2px);
+}
+
+.grayscale .google {
+    background: url("http://front.rocks/tp/03-html-css-advanced/tp5/img/sprite.png") calc(-84*3px) calc(-84*2px);
+}
+
+.grayscale .linkedin{
+    background: url("http://front.rocks/tp/03-html-css-advanced/tp5/img/sprite.png") calc(-84*4px) calc(-84*2px);
+}
+
+.grayscale .twitter{
+    background: url("http://front.rocks/tp/03-html-css-advanced/tp5/img/sprite.png") calc(-84*8px) calc(-84*2px);
+}
+
+/*ROW ROUND*/
+.round>div{
+    border-radius: 100%;
+}
+
+.pinterest {
+    background: url("http://front.rocks/tp/03-html-css-advanced/tp5/img/sprite.png");
+}
+
+.skype {
+    background: url("http://front.rocks/tp/03-html-css-advanced/tp5/img/sprite.png") calc(-84*3px) 0;
+}
+
+.vimeo{
+    background: url("http://front.rocks/tp/03-html-css-advanced/tp5/img/sprite.png") calc(-84*4px) 0;
+}
+
+.youtube{
+    background: url("http://front.rocks/tp/03-html-css-advanced/tp5/img/sprite.png") calc(-84*8px) 0;
+}

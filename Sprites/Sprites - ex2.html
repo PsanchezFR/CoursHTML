@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="Sprites%20-%20ex2.css" rel="stylesheet" type="text/css">
+    <title>Sprites - ex2</title>
+</head>
+<body>
+<!--
+        objectif :
+            1) afficher les icônes de Facebook, Google+, Linkedin, Twitter
+            2) afficher les icônes de Pinterest, skype, vimeo, youtube dans un rond qui contient son icône transparente, et au survol, afficher l'icône en coloré.
+        explications :
+            - chaque ensemble de 4 icones est regroupé dans une div.row
+            les div enfants de .row sont en float:left, et sont donc entassées les une après les autres dans la div.row.
+            - Ensuite, div.row applique la propriété clear:both pour rétablir le flux après elle.
+            - Et on recommence pour chaque ligne
+            - Pour se réperer dans un sprite:
+                * il faut récupérer la taille des icones ( ici 84*84px )
+                * calculer les positions des icones dans cette grille ( on commence à 0 )
+                => exemples : l'icone google plus orange est situé à la position 3/1 ( 3 cases depuis la gauche et une case depuis le haut )
+    -->
+    <div class="row transparent">
+        <div class="logo facebook" ></div>
+        <div class="logo google"></div>
+        <div class="logo linkedin"></div>
+        <div class="logo twitter"></div>
+    </div>
+    <div class="row colored">
+        <div class="logo facebook"></div>
+        <div class="logo google"></div>
+        <div class="logo linkedin"></div>
+        <div class="logo twitter"></div>
+    </div>
+    <div class="row grayscale">
+        <div class="logo facebook"></div>
+        <div class="logo google"></div>
+        <div class="logo linkedin"></div>
+        <div class="logo twitter"></div>
+    </div>
+    <div class="row round">
+        <div class="logo pinterest"></div>
+        <div class="logo skype"></div>
+        <div class="logo vimeo"></div>
+        <div class="logo youtube"></div>
+    </div>
+</body>
+</html>
