@@ -1,0 +1,90 @@
+/*background-image: url("http://hd.wallpaperswide.com/thumbs/house_on_the_hill-t2.jpg");*/
+* {
+    background-repeat: no-repeat;
+}
+
+html {
+    background-color: steelblue;
+}
+
+.row{
+    display: block;
+    width: 75vw;
+}
+
+.container{
+    display: inline-block;
+    float: left;
+    margin: 10px;
+    border: 1px solid black;
+    background-color: linen;
+    width: 250px;
+    height: 250px;
+}
+
+/*Ids*/
+
+#con1{
+    background-image: url("http://hd.wallpaperswide.com/thumbs/house_on_the_hill-t2.jpg");
+    background-position: right bottom;
+    background-size: 75%;
+}
+
+#con2{
+    background-image: url("http://hd.wallpaperswide.com/thumbs/house_on_the_hill-t2.jpg");
+    background-position: center;
+    background-size: 75%;
+}
+
+#con3{
+    background-image: url("http://hd.wallpaperswide.com/thumbs/house_on_the_hill-t2.jpg");
+    background-position: right;
+    background-size: 75%;
+    background-repeat: repeat-y;
+}
+
+#con4{
+    background-image: url("http://hd.wallpaperswide.com/thumbs/house_on_the_hill-t2.jpg");
+    background-position: right;
+    background-size: 75%;
+    background-repeat: repeat;
+}
+
+#con5{
+    background-image: url("http://hd.wallpaperswide.com/thumbs/house_on_the_hill-t2.jpg");
+    background-position: center;
+    background-size: 75%;
+    background-repeat: repeat;
+}
+
+#con6{
+    background-image: url("http://hd.wallpaperswide.com/thumbs/house_on_the_hill-t2.jpg");
+    background-position: bottom;
+    background-size: contain;
+}
+
+#con7{
+    background-image: url("http://hd.wallpaperswide.com/thumbs/house_on_the_hill-t2.jpg");
+    background-position: bottom;
+    background-size: cover;
+}
+
+#con8{
+    background-image: url("http://hd.wallpaperswide.com/thumbs/house_on_the_hill-t2.jpg");
+    background-position: bottom;
+    background-size: cover;
+}
+
+#con9{
+    background-image: url("http://hd.wallpaperswide.com/thumbs/house_on_the_hill-t2.jpg");
+    background-position: left;
+    background-size: 50%;
+    background-repeat: round;
+}
+
+#con10{
+    background-image: url("http://hd.wallpaperswide.com/thumbs/house_on_the_hill-t2.jpg");
+    background-position: top left;
+    background-size: contain;
+    background-repeat: round;
+}
