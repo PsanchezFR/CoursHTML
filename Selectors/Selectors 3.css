@@ -1,0 +1,40 @@
+html {
+    background-color: steelblue;
+}
+
+/*Link*/
+a:hover {
+    color: #B232FB;
+    font-style: normal;
+}
+
+/*Forms*/
+form label input:required {
+    background-color: red;
+}
+
+#focusForm input:focus {
+    border: 1px solid lightgreen;
+    background-color: green;
+}
+
+/*Table*/
+table, tr, td{
+    border: 1px solid black;
+}
+table tr:nth-child(2n) {
+    background-color: lightblue;
+}
+
+table tr:hover{
+    background-color: #E9FDEC;
+}
+
+/*Button*/
+label input:focus {
+    background-color: yellow;
+}
+
+label input:active {
+    background-color: blue;
+}

@@ -6,6 +6,67 @@
     <title>Selectors 3</title>
 </head>
 <body>
-
+<!--
+utiliser les pseudos classes pour afficher :
+- un lien, au survol : texte en #B232FB et pas de sous lignage
+- un formulaire où les champs textes obligatoires ( attribut required="true" ) ont un cadre rouge
+- une table ( 5 lignes, 4  colonnes ) avec lignes suvolées en fond #E9FDEC, et une ligne sur deux a un fond bleu clair
+- un formulaire ( 1 champs texte et un champs password ) où le champ actif a un fond et un cadre vert.
+ - un bouton submit, lorsque l'on clique dessus il est en fond bleu et lorsqu'il est focus en fond jaune ( attention à la spécificité )
+-->
+    <a href="https://simplon.co">Simplon</a>
+    <form>
+        <label>
+            Login
+            <input name="login" type="text" required>
+        </label>
+        <label>
+            Nickname
+            <input name="Nickname" type="text">
+        </label>
+    </form>
+    <table>
+        <tr>
+            <td>BLABLA1</td>
+            <td>BLABLA2</td>
+            <td>BLABLA3</td>
+            <td>BLABLA4</td>
+        </tr>
+        <tr>
+            <td>BLABLA5</td>
+            <td>BLABLA6</td>
+            <td>BLABLA7</td>
+            <td>BLABLA8</td>
+        </tr>
+        <tr>
+            <td>BLABLA9</td>
+            <td>BLABLA10</td>
+            <td>BLABLA11</td>
+            <td>BLABLA12</td>
+        </tr>
+        <tr>
+            <td>BLABLA13</td>
+            <td>BLABLA14</td>
+            <td>BLABLA15</td>
+            <td>BLABLA16</td>
+        </tr>
+        <tr>
+            <td>BLABLA17</td>
+            <td>BLABLA18</td>
+            <td>BLABLA19</td>
+            <td>BLABLA20</td>
+        </tr>
+    </table>
+    <form id="focusForm">
+        <label>
+            Adresse <input name="Adress" type="text">
+        </label>
+        <label>
+            Mail <input name="Mail" type="text">
+        </label>
+    </form>
+    <label>
+        <input type="submit">
+    </label>
 </body>
 </html>
