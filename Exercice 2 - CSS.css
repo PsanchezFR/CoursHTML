@@ -1,0 +1,39 @@
+* {
+
+}
+
+html {
+    background-color: steelblue;
+}
+
+body{
+
+}
+
+.row{
+    display: block;
+    width: 75vw;
+}
+
+.container{
+    display: inline-block;
+    float: left;
+    padding: 1px;
+    margin: 10px;
+    border: black;
+    background-color: linen;
+    width: 250px;
+    height: 250px;
+}
+
+.fleft{
+    display: inline;
+    background-color: lightgreen;
+    border: black;
+}
+
+.fright {
+    display: block;
+    background-color: lightblue;
+    border: blue;
+}
