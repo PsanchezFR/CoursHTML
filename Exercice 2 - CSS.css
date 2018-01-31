@@ -18,7 +18,6 @@ body{
 .container{
     display: inline-block;
     float: left;
-    padding: 1px;
     margin: 10px;
     border: black;
     background-color: linen;
@@ -27,13 +26,32 @@ body{
 }
 
 .fleft{
-    display: inline;
+    display: inline-block;
+    height: 50px;
     background-color: lightgreen;
-    border: black;
+    /*border: 1px solid green;*/
 }
 
 .fright {
-    display: block;
+    display: inline-block;
+    height: 50px;
     background-color: lightblue;
-    border: blue;
+    /*border: 1px solid blue;*/
+}
+
+/*Ids for the space used by each box -*/
+/**/
+/*Had to substract 1% to 3% to each so the boxes were on the same line*/
+/*It has to be more depending on the number of elements*/
+
+#half {
+    width: 49%;
+}
+
+#third {
+    width: 31%;
+}
+
+#quarter {
+    width: 22%;
 }
