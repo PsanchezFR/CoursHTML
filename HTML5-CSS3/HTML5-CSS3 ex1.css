@@ -1,0 +1,8 @@
+html{
+    background: lightblue;
+}
+
+tr:nth-child(2n){
+    border: 1px solid black;
+    background-color: #DDD;
+}
