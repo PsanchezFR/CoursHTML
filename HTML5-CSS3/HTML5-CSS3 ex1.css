@@ -71,5 +71,36 @@ a:not([href^="http://monsite.com"]):after {
  content: "➚";
 }
 
+#heart {
+    display: inline-block;
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    background: red;
+    transform: rotate(45deg);
+}
+
+#heart:after{
+    display: inline-block;
+    position: fixed;
+    content: " ";
+    bottom: 50px;
+    height: 100px;
+    width: 100px;
+    background: red;
+    border-radius: 100%;
+}
+
+#heart:before{
+    display: inline-block;
+    position: fixed;
+    right: 50px;
+    content: " ";
+    height: 100px;
+    width: 100px;
+    background: red;
+    border-radius: 100%;
+}
+
 
 
