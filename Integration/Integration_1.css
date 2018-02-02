@@ -13,11 +13,13 @@ body{
 
 /*NAVIGATION MENU*/
 nav{
+    position: absolute;
     width: 100%;
     white-space: nowrap;
     height: 68px;
     line-height: 60px;
     background-color: #151515;
+    z-index: 1;
 }
 
 nav *{
@@ -47,3 +49,38 @@ nav a{
     color: white;
 }
 
+/*BANNER*/
+.banner {
+    background-image: url("./img/photo.png");
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+.banner img{
+    position: absolute;
+    left: 55vw;
+}
+
+.banner div{
+    position: relative;
+    top: 150px;
+    left: 150px;
+    display: flex;
+    justify-items: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.banner div *{
+    width: 95%;
+    color: white;
+}
+
+.banner div h1{
+    font-size: 4em;
+}
+
+.banner div p{
+    font-size: 1em;
+}
