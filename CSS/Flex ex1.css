@@ -1,0 +1,65 @@
+html {
+    background-color: steelblue;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 2px;
+    padding: 2px;
+    width: 98vw;
+    height: 98vh;
+    border: 1px solid black;
+}
+
+body *{
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+
+header{
+    background-color: #F29E09;
+    display: flex;
+    justify-content: left;
+}
+
+header span{
+    height: 20vh;
+    width: 20vw;
+}
+
+section{
+    background-color: #B232FB;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+section span{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    height: 25vh;
+    width: 25vw;
+}
+
+section span span{
+    height: 8vh;
+    width: 8vw;
+}
+
+footer{
+    background-color: #1DE58B;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+
+footer span{
+    height: 15vh;
+    width: 15vw;
+}
