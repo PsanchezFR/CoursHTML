@@ -1,5 +1,5 @@
 html {
-    background: #B232FB;
+    background-color: #B232FB;
 }
 
 body{
@@ -7,7 +7,7 @@ body{
     width: 100vw;
 }
 
-body *:nth-child(n){
+body *{
     font-size: 2em;
     text-align: center;
     border: 5px solid #B232FB;
@@ -18,28 +18,26 @@ header {
     display: inline-block;
     width: 95%;
     height: 15%;
-    background: #1DE58B;
+    background-color: #1DE58B;
 }
 
 nav {
     display: inline-block;
-    float: left;
     width: 21.5%;
     height: 65%;
-    background: #0566F1;
+    background-color: #0566F1;
 }
 
-main {
+section {
     display: inline-block;
-    float: left;
     width: 70.5%;
     height: 65%;
-    background: #F29E09;
+    background-color: #F29E09;
 }
 
 footer {
     display: inline-block;
     width: 95%;
     height: 15%;
-    background: #1DE58B;
+    background-color: #1DE58B;
 }
