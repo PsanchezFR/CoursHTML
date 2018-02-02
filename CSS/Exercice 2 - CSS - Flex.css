@@ -1,0 +1,65 @@
+* {
+
+}
+
+html {
+    background-color: steelblue;
+}
+
+body{
+
+}
+
+.row{
+    display: block;
+    width: 75vw;
+}
+
+.container{
+    display: inline-block;
+    float: left;
+    margin: 10px;
+    border: 1px solid black;
+    background-color: linen;
+    width: 250px;
+    height: 250px;
+}
+
+.fleft{
+    display: inline-block;
+    float: left;
+    height: 40px;
+    background-color: lightgreen;
+    box-shadow: 0 0 0 1px green inset;
+}
+
+.fright {
+    display: inline-block;
+    float: right;
+    height: 40px;
+    background-color: lightblue;
+    box-shadow: 0 0 0 1px blue inset;
+}
+
+.clrBox {
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: purple;
+    clear: both;
+}
+
+/*Classes for the space used by each box -*/
+/**/
+
+.half {
+    width: 50%;
+}
+
+.third {
+    width: calc(100%/3);
+}
+
+.quarter {
+    width: 25%;
+}
