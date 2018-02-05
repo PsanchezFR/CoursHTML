@@ -130,3 +130,36 @@ nav a{
     top: 170px;
     left: 220px;
 }
+
+/*MAIN*/
+
+.main{
+    height: 500px;
+}
+
+.icons{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+}
+
+.icons span{
+    width: 266px;
+    height: 191px;
+    margin-right: 5%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #ffffff;
+    box-sizing: border-box;
+    background-color: #e8e8e8;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
+
+}
+
+.icons span img {
+    margin-left: 100px;
+    margin-top: 35px;
+}
