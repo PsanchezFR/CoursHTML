@@ -1,7 +1,6 @@
 /*GENERAL*/
 html {
     background-color: white;
-    font-family: 'Open Sans', monospace;
 }
 
 body{
@@ -14,7 +13,10 @@ body{
 body *{
     margin: 1px;
     padding: 1px;
+    font-family: 'Open Sans', monospace;
 }
+
+
 
 /*NAVIGATION MENU*/
 
@@ -53,6 +55,10 @@ nav li{
 
 nav a{
     color: white;
+    text-decoration: none;
+    font-family: 'Open Sans', monospace;
+    font-weight: bold;
+    margin-right: 10px;
 }
 
 #brand em{
@@ -103,4 +109,24 @@ nav a{
 
 .banner div p{
     font-size: 1.5em;
+}
+
+#ourWork{
+    position: relative;
+    border-radius: 5px;
+    background: -webkit-linear-gradient(90deg, #3b9d0a 0%, #53b305 100%);
+    background: -moz-linear-gradient(90deg, #3b9d0a 0%, #53b305 100%);
+    background: -o-linear-gradient(90deg, #3b9d0a 0%, #53b305 100%);
+    background: -ms-linear-gradient(90deg, #3b9d0a 0%, #53b305 100%);
+    background: linear-gradient(0deg, #3b9d0a 0%, #53b305 100%);
+    border: 0;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.30);
+    width: 293px;
+    height: 63px;
+    font-family: 'Open Sans', monospace;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: white;
+    top: 170px;
+    left: 220px;
 }
