@@ -11,7 +11,13 @@ body{
     height: 100vh;
 }
 
+body *{
+    margin: 1px;
+    padding: 1px;
+}
+
 /*NAVIGATION MENU*/
+
 nav{
     position: absolute;
     width: 100%;
@@ -49,12 +55,26 @@ nav a{
     color: white;
 }
 
+#brand em{
+    margin-right: 0;
+    font-weight: bold;
+    font-style: normal;
+}
+
+#brand span{
+    margin: 5px;
+}
+
+#brand span span{
+    vertical-align: bottom;
+}
+
 /*BANNER*/
 .banner {
     background-image: url("./img/photo.png");
     background-position: center;
     background-size: cover;
-    height: 600px;
+    height: 500px;
 }
 
 .banner img{
@@ -65,7 +85,7 @@ nav a{
 .banner div{
     position: relative;
     top: 150px;
-    left: 150px;
+    left: 220px;
     display: flex;
     justify-items: flex-start;
     align-items: flex-start;
@@ -78,9 +98,9 @@ nav a{
 }
 
 .banner div h1{
-    font-size: 4em;
+    font-size: 4.5em;
 }
 
 .banner div p{
-    font-size: 1em;
+    font-size: 1.5em;
 }
