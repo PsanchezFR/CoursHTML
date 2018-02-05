@@ -137,6 +137,14 @@ nav a{
     height: 500px;
 }
 
+.disciplines{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-items: center;
+}
+
 .icons{
     display: flex;
     width: 100%;
@@ -162,4 +170,51 @@ nav a{
 .icons span img {
     margin-left: 100px;
     margin-top: 35px;
+}
+
+.titles{
+    position: absolute;
+    background-color: white;
+    top: 650px;
+    display: flex;
+    height: 200px;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.texts{
+    position: absolute;
+    background-color: white;
+    top: 700px;
+    display: flex;
+    height: 200px;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.titles h1{
+    width: 266px;
+    height: 191px;
+    text-align: center;
+    margin-right: 5%;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: normal;
+    color: grey;
+    box-shadow: 0 -5px 5px -5px rgba(0, 0, 0, 0.15);
+}
+
+.texts p{
+    width: 266px;
+    height: 200px;
+    text-align: center;
+    margin-right: 5%;
+    font-size: 0.75em;
+    color: grey;
 }
